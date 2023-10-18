@@ -12,7 +12,7 @@ app = FastAPI()
 # ]
 origins = [
     "https://gen-qr-client.vercel.app/",
-    "https://main--glittery-salamander-4076bc.netlify.app/",
+    "https://glittery-salamander-4076bc.netlify.app/",
 ]
 app.add_middleware(
     CORSMiddleware,
