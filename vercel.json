@@ -1,6 +1,6 @@
 {
     "framework": "python",
-    "target": "server",
+    "target": "./",
     "scripts": {
       "start": "python main.py"
     }
