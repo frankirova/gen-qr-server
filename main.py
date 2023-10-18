@@ -10,9 +10,13 @@ app = FastAPI()
 #     "http://localhost:5173",
 #     "http://localhost:8000",
 # ]
+origins = [
+    "https://gen-qr-client-o89l7k35o-frankirova.vercel.app/",
+    "https://main--glittery-salamander-4076bc.netlify.app/",
+]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
