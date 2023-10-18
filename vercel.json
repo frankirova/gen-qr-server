@@ -1,0 +1,8 @@
+{
+    "framework": "python",
+    "target": "server",
+    "scripts": {
+      "start": "python main.py"
+    }
+  }
+  
