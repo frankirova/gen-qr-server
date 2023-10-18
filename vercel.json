@@ -1,7 +1,4 @@
 {
-    "framework": "python",
-    "scripts": {
-      "start": "python main.py"
-    }
+    "framework": "python"
   }
   
