@@ -11,7 +11,7 @@ app = FastAPI()
 #     "http://localhost:8000",
 # ]
 origins = [
-    "https://gen-qr-client-o89l7k35o-frankirova.vercel.app/",
+    "https://gen-qr-client-h1rstvh8e-frankirova.vercel.app/",
     "https://main--glittery-salamander-4076bc.netlify.app/",
 ]
 app.add_middleware(
