@@ -9,7 +9,7 @@ from urllib.parse import unquote
 
 router = APIRouter()
 
-@router.get("api/qr/{link}")
+@router.get("/api/qr/{link}")
 async def getQr(link):
     print(link)
     decoded_link = unquote(link)
