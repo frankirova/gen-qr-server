@@ -20,7 +20,7 @@ pyasn1-modules==0.3.0
 pydantic==1.10.7
 pyparsing==3.0.9
 pypng==0.20220715.0
-python-dotenv==1.0.0
+python-dotenv==0.21.1
 PyYAML==6.0
 qrcode==7.4.2
 requests==2.30.0
